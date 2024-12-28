@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta 
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>EcoMex - Exportaciones</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts: Inter Tight -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700&display=swap"
+  />
+</head>
+<body>
+  <body>
+    <!-- Hero wrapper with background -->
+    <section class="hero" id="home">
+      <!-- Navbar is inside the hero -->
+      <header class="navbar">
+        <div class="container nav-container">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Company Logo" class="navbar-logo"/>
+          </div>
+          <nav class="nav-links" id="navLinks">
+            <ul>
+              <li><a href="#home">Inicio</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#products">Productos</a></li>
+              <li><a href="#about-us">Nosotros</a></li>
+              <li><a href="#contact" class="btn-nav-contact">Contacto</a></li>
+            </ul>
+          </nav>
+          <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </header>
+  
+      <!-- Hero content -->
+      <div class="container hero-container">
+        <h1>Exporta con éxito</h1>
+        <p>
+          Nos encargamos de aspectos logísticos, de exportación y legales para que usted pueda concentrarse
+          en lo que mejor sabe hacer: cultivar productos de calidad.
+        </p>
+        <a href="https://wa.me/5493888318336" class="btn">Contáctanos</a>
+      </div>
+    </section>
+
+  <!-- ========== SERVICES SECTION START ========== -->
+<!-- SERVICES SECTION -->
+    <section class="section services fade-in" id="services">
+      <div class="container">
+        <!-- Larger, bolder section title -->
+        <h2 class="section-title">Servicios</h2>
+  
+        <!-- Services grid with 4 cards -->
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card">
+            <span class="service-number">01</span>
+            <h3 class="service-title">Todo Incluido</h3>
+            <p>
+              Desde la recolección hasta la entrega, nos ocupamos de cada detalle.
+              ¡Tú solo relájate y mira cómo crece tu negocio!
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="service-card">
+            <span class="service-number">02</span>
+            <h3 class="service-title">Exportaciones Agrícolas</h3>
+            <p>
+              Nuestra empresa facilita la exportación de productos agrícolas como
+              maíz y frijoles.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="service-card">
+            <span class="service-number">03</span>
+            <h3 class="service-title">Exportaciones Agrícolas</h3>
+            <p>
+              Nuestra empresa facilita la exportación de productos agrícolas como
+              maíz y frijoles.
+            </p>
+          </div>
+          <!-- Card 4 -->
+          <div class="service-card">
+            <span class="service-number">04</span>
+            <h3 class="service-title">Exportaciones Agrícolas</h3>
+            <p>
+              Nuestra empresa facilita la exportación de productos agrícolas como
+              maíz y frijoles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- ========== SERVICES SECTION END ========== -->
+
+  <!-- ========== PRODUCTS SECTION START ========== -->
+<!-- PRODUCTS SECTION -->
+    <section class="section products fade-in" id="products">
+      <div class="container">
+        <h2 class="section-title">Nuestros Productos</h2>
+
+        <div class="products-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <img src="images/corn.jpg" alt="Maíz Premium" />
+            <p class="price">$500/tonelada</p>
+            <h3 class="product-title">Maíz Premium</h3>
+            <p class="product-desc">
+              Maíz de la mejor calidad, listo para conquistar mercados 
+              internacionales. ¡No te quedes atrás!
+            </p>
+            <a href="#contact" class="btn contact-btn">¡Contáctanos!</a>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <img src="images/corn.jpg" alt="Frijoles Negros" />
+            <p class="price">$600/tonelada</p>
+            <h3 class="product-title">Frijoles Negros</h3>
+            <p class="product-desc">
+              Frijoles negros que harán que tus clientes se derritan.
+              ¡Exporta con nosotros!
+            </p>
+            <a href="#contact" class="btn contact-btn">¡Contáctanos!</a>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <img src="images/corn.jpg" alt="Sorgo Dulce" />
+            <p class="price">$550/tonelada</p>
+            <h3 class="product-title">Sorgo Dulce</h3>
+            <p class="product-desc">
+              Sorgo dulce, el secreto mejor guardado de los agricultores.
+              ¡Hazlo global!
+            </p>
+            <a href="#contact" class="btn contact-btn">¡Contáctanos!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- ========== PRODUCTS SECTION END ========== -->
+
+  <section class="whatsapp-section" id="whatsapp">
+    <div class="container whatsapp-container">
+      <!-- LEFT COLUMN: Image -->
+      <div class="whatsapp-image">
+        <img src="images/export.jpg" alt="Irrigation in action" />
+      </div>
+  
+      <!-- RIGHT COLUMN: Text + Button -->
+      <div class="whatsapp-content">
+        <h2 class="whatsapp-heading">¡Hablemos Por WhatsApp!</h2>
+        <p class="whatsapp-desc">
+          ¿Listo para llevar tus productos al siguiente nivel? 
+          Contáctanos por WhatsApp y descubre cómo podemos ayudarte 
+          a exportar sin complicaciones. ¡Estamos aquí para hacer 
+          tu vida más fácil!
+        </p>
+        <a href="https://wa.me/5493888318336" class="btn-green whatsapp-btn">Chatea Ahora</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ========== ABOUT SECTION START ========== -->
+  <section class="section fade-in" id="about-us">
+    <div class="container">
+      <!-- Small subtitle above the main heading -->
+      <p class="about-subtitle">¡Exporta sin preocupaciones!</p>
+      <!-- Large, bold main heading -->
+      <h2 class="about-title">Lo Que Ofrecemos</h2>
+      
+      <!-- Divider line -->
+      <hr class="about-divider" />
+      
+      <!-- 3 columns of text (you can change the text as needed) -->
+      <div class="about-columns">
+        <p>
+          Gestión completa de exportaciones, desde la cosecha hasta el destino final. 
+          ¡Tú solo provees el producto!
+        </p>
+        <p>
+          Asesoría en mercados internacionales para maximizar tus ganancias. 
+          ¡No dejes dinero sobre la mesa!
+        </p>
+        <p>
+          Soporte constante y comunicación directa. ¡Estamos contigo en cada paso!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ========== ABOUT SECTION END ========== -->
+
+  <!-- SECTION BETWEEN ABOUT & CONTACT -->
+  <section class="scroll-image-section">
+    <img src="images/scroll.jpg" alt="Scrolling Image" class="full-image" />
+  </section>
+
+  <!-- ========== CONTACT SECTION START ========== -->
+  <section class="section fade-in" id="contact">
+    <div class="container contact-wrapper">
+      <!-- LEFT COLUMN: Title & Subtitle -->
+      <div class="contact-left">
+        <p class="contact-subtitle">¡Hablemos de tu producto!</p>
+        <h2 class="contact-title">Contáctanos Ahora</h2>
+      </div>
+  
+      <!-- RIGHT COLUMN: Contact Form -->
+      <div class="contact-right">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+  
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+  
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+  
+          <button type="submit" class="btn-green">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ========== CONTACT SECTION END ========== -->
+
+  <!-- ========== FOOTER START ========== -->
+  <footer>
+    <div class="container footer-container">
+      <p>© 2024 Export & Logistics. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- ========== FOOTER END ========== -->
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
